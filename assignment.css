@@ -1,0 +1,26 @@
+#road{
+    width: 100vw;
+    margin-top: 100px;
+}
+.parent1{
+    left: 20px;
+    float: left;
+    position: relative;
+    transform: translate(0px, -226px);
+    width: 477px;
+height: 221px;
+transition: left 4s linear 1s;
+}
+.parent1:hover{
+left: 800px;
+}
+.wheel
+{
+    transform: rotate(0deg);
+    transition: transform 5s linear 0s;
+    position: relative;
+}
+.parent1:hover .wheel
+{
+    transform: rotate(360deg);
+}
